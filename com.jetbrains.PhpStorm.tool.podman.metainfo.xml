@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="runtime">
+  <id>com.jetbrains.PhpStorm.tool.podman</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>Podman (remote client)</name>
+  <summary>A tool for PHPSTorm for managing OCI containers and pods</summary>
+  <url type="homepage">https://podman.io/</url>
+  <releases>
+    <release version="5.6.2" date="2025-09-30">
+      <description></description>
+    </release>
+  </releases>
+</component>

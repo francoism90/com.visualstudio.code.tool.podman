@@ -1,8 +1,8 @@
-id: com.visualstudio.code.tool.podman
-branch: '25.08'
+id: com.jetbrains.PhpStorm.tool.podman
+branch: "25.08"
 build-extension: true
 sdk: org.freedesktop.Sdk//25.08
-runtime: com.visualstudio.code
+runtime: com.jetbrains.PhpStorm
 runtime-version: stable
 separate-locales: false
 sdk-extensions:
@@ -12,8 +12,8 @@ build-options:
   prefix: /app/tools/podman
   strip: true
 cleanup:
-  - '*.a'
-  - '*.la'
+  - "*.a"
+  - "*.la"
   - /share/man
 modules:
   - name: podman
@@ -39,4 +39,4 @@ modules:
       - install -Dm644 -t $FLATPAK_DEST/share/metainfo $FLATPAK_ID.metainfo.xml
     sources:
       - type: file
-        path: com.visualstudio.code.tool.podman.metainfo.xml
+        path: com.jetbrains.PhpStorm.tool.podman.metainfo.xml
