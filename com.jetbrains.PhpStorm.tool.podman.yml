@@ -1,9 +1,9 @@
 id: com.jetbrains.PhpStorm.tool.podman
-branch: stable
+branch: "24.08"
 build-extension: true
 sdk: org.freedesktop.Sdk//24.08
 runtime: com.jetbrains.PhpStorm
-runtime-version: "stable"
+runtime-version: "test"
 separate-locales: false
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
